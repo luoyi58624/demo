@@ -8,7 +8,6 @@
     "build:github": "vite build --mode github",
     "preview": "vite preview",
     "update": "ncu -u && pnpm update",
-    "release": "dotenv -e .env.local release-it -- --ci",
     "prepare": "husky install",
     "postinstall": "pnpm -v && git init"
   },
@@ -27,7 +26,6 @@
     "@commitlint/cli": "^18.5.0",
     "@commitlint/config-conventional": "^18.5.0",
     "@iconify/json": "^2.2.172",
-    "@release-it/conventional-changelog": "^8.0.1",
     "@types/lodash": "^4.14.202",
     "@types/node": "^20.11.5",
     "@vitejs/plugin-vue": "^5.0.3",
@@ -36,7 +34,6 @@
     "husky": "^8.0.3",
     "npm-check-updates": "^16.14.12",
     "prettier": "^3.2.4",
-    "release-it": "^17.0.1",
     "sass": "^1.69.7",
     "typescript": "^5.3.3",
     "unocss": "^0.58.3",
