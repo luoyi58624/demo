@@ -13,7 +13,7 @@ const appStore = useAppStore()
 		<button class="btn-primary" type="button" @click="count++">count: {{ count }}</button>
 		<button class="btn-success" type="button" @click="count++">count: {{ count }}</button>
 		<button class="btn-gray" type="button" @click="count++">count: {{ count }}</button>
-		<button class="btn-info" type="button" @click="appStore.count++">store count: {{ appStore.count }}</button>
+		<button class="btn-info" type="button" @click="appStore.increment()">store count: {{ appStore.count }}</button>
 	</div>
 </template>
 

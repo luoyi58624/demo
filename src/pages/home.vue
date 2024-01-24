@@ -1,7 +1,6 @@
 <script setup lang="ts">
 const appStore = useAppStore()
 const count = ref(0)
-
 </script>
 
 <template>
