@@ -1,0 +1,1 @@
+import{_ as e}from"./App.1706060677367.js";import{o as t,z as o}from"./vue.1706060677367.js";const r={};function c(n,s){return t(),o("h1",null,"测试页面")}const f=e(r,[["render",c]]);export{f as default};

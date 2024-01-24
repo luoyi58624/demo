@@ -1,0 +1,1 @@
+import{u as r,a as t}from"./App.1706060677367.js";import{d as o,o as a,z as s}from"./vue.1706060677367.js";const m=o({__name:"transfer_router",setup(n){const e=r();return t(),e.replace("/404").then(()=>{}),(u,c)=>(a(),s("div"))}});export{m as default};
