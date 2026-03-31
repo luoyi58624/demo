@@ -1,0 +1,14 @@
+name: Publish el_dart to pub.dev
+
+on:
+  push:
+    tags:
+      - 'el_dart*'
+
+jobs:
+  publish:
+    permissions:
+      id-token: write
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
