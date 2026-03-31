@@ -33,7 +33,7 @@ class HomePage extends ConsumerWidget {
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
-    final updateValue = ref.watch(counterProvider);
+    // final updateValue = ref.watch(counterProvider);
 
     return MaterialApp(
       home: Scaffold(
